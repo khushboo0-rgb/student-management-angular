@@ -1,0 +1,28 @@
+<h2>fill all the fields below</h2>
+
+
+<div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First Name"[(ngModel)]= student.firstname aria-label="Title">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last Name"[(ngModel)]= student.lastname aria-label="Category">
+    </div>
+    <div class="col">
+        <input type="text" class="form-control" placeholder="Subject"[(ngModel)]= student.subject aria-label="Subject">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Class Of Student"[(ngModel)]= student.studentClass aria-label="Class Of Student">
+      </div>
+      <div class="col">
+        <input type="date" class="form-control" placeholder="Date of Birth"[(ngModel)]= student.dateOfBirth aria-label="Date of Birth">
+      </div>
+  
+  </div>
+  <br>
+ 
+  
+  <br>
+  <button type="button" class="btn btn-outline-success"(click)= "save()">Success</button>
+
+  
