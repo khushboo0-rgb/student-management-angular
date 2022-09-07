@@ -14,7 +14,7 @@ export class SavebookComponent implements OnInit {
   save()
   {
     
-    const observable = this.studentService.saveStudent(this.student);
+    const observable = this.studentService.createStudent(this.student);
     observable.subscribe(
       (response: any) => {
         console.log(response);
@@ -23,6 +23,9 @@ export class SavebookComponent implements OnInit {
 
     )
   }
+  
+  
+
   constructor( public studentService: StudentService) { }
 
   ngOnInit(): void {

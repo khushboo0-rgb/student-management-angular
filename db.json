@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "students": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "firstname": "",
+      "lastname": "",
+      "studentClass": "",
+      "subject": "",
+      "dateOfBirth": 0,
+      "id": 0
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "firstname": "khushu1",
+      "lastname": "sharma1",
+      "studentClass": "11",
+      "subject": "maths1",
+      "dateOfBirth": "2022-09-06",
+      "id": 2
+    },
+    {
+      "firstname": "khushu2",
+      "lastname": "sharma2",
+      "studentClass": "12",
+      "subject": "maths3",
+      "dateOfBirth": "2022-09-06",
+      "id": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
